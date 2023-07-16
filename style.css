@@ -1,0 +1,141 @@
+body{
+    padding: 2%;
+}
+#showMainArea{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 80vw;
+  max-height: 70vh;
+  overflow: scroll;
+}
+#showMainArea::-webkit-scrollbar {
+  display: none;
+}
+section:nth-child(1), .info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+   color: white; 
+  font-family: sans-serif;
+}
+.info h1{
+  font-size: 2em;
+}
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+}
+.menu{
+  overflow: hidden;
+  min-height: 20vh;
+  min-width: 20vw;
+}
+.menu > ul > li {
+  list-style:none;
+}
+.menu > ul > li button{
+  color: white;
+    font-size: medium;
+    font-weight: bolder;
+    padding: 10% 0;
+    background-color: transparent;
+    border: none;
+}
+.menu > ul > li button:hover{
+    font-style: italic;
+    font-size: larger;
+    cursor: pointer;
+    width: min-content;
+    word-wrap: break-word;
+}
+.flexBox{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.skills > ul > li{
+    font-weight: 600;
+    list-style:none;
+    padding: 5% 0;
+}
+.skills > ul > li:nth-child(odd) {
+   color: gray;
+  }
+
+  .hidden{
+    display: none;
+  }
+  
+
+  /* card */
+  .container {
+    position : relative;
+    display : flex;
+    align-items : center;
+    justify-content : center;
+    flex-wrap : warp;
+    padding : 30px;  
+  }
+  
+  .container .card {
+    position: relative;
+    max-width : 300px;
+    height : 215px;  
+    background-color : #333;
+    margin : 30px 10px;
+    padding : 20px 15px;
+    
+    display : flex;
+    flex-direction : column;
+    box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+    transition : 0.3s ease-in-out;
+    border-radius : 15px;
+  }
+  .container .card:hover {
+    height : 320px;    
+  }
+  
+  
+  .container .card .image {
+    position : relative;
+    width : 260px;
+    height : 260px;
+    
+    top : -40%;
+    left: 8px;
+    box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+    z-index : 1;
+  }
+  
+  .container .card .image img {
+    max-width : 100%;
+    border-radius : 15px;
+  }
+  
+  .container .card .content {
+    position : relative;
+    top : -140px;
+    padding : 10px 15px;
+    color : white;
+    text-align : center;
+    
+    visibility : hidden;
+    opacity : 0;
+    transition : 0.3s ease-in-out;
+      
+  }
+  
+  .container .card:hover .content {
+     margin-top : 30px;
+     visibility : visible;
+     opacity : 1;
+     transition-delay: 0.2s;
+    
+  }
+
+
+

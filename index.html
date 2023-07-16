@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=".css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body style="background-color: #333;">
+
+    <img style="width: 4em; height: 4em; border-radius: 50%;"  src="./assets/logo.png" alt="">
+    
+
+
+<main>
+
+<div id="showMainArea">
+  <section>
+    <div id="home" class="info" style="width: 50%;">
+        
+            <h1>
+               <span> I'm</span> <span class="name"  style="width: max-content; border-bottom: 3px solid purple; color: rgb(231, 42, 231);">Aayush Vishwakarma</span> </h1>
+        <p class="designation">Front End Developer</p>
+        <p>
+          I am Aayush, a recent graduate who has successfully obtained a degree. I specialize in frontend engineering, possessing the necessary skills and expertise to excel in this field.                </p>
+    </div>
+</section>
+</div>
+      
+      <div>
+        <div class="menu">
+            <ul>
+                <li><button onclick="toggle(home)">Home</button></li>
+                <li><button onclick="toggle(skills)">Skills</button></li>
+                <li><button onclick="toggle(projects)">Projects</button></li>
+                
+            </ul>
+        </div>
+    </div>
+  
+    </main>
+
+
+    <section id="skills" class="skills flexBox hidden" style="color: white;">
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>React.Js</li>
+    </ul>
+    <ul>
+        <li>Bootstrap</li>
+        <li>Git & Github</li>
+        <li>Figma</li>
+        <li>Canva</li>
+    </ul>
+    </section>
+
+    <section id="projects" class="projects hidden">
+
+            <div class = container>
+              <div class = card>
+                <div class = image>
+                  <img href = "#" src =https://i.pinimg.com/originals/a4/7b/a5/a47ba59b4a353e0928ef0551ca44f980.jpg>
+                </div>
+                <div class = content>
+                  <h3>Heading</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident suscipit doloremque error, odio ducimus labore veniam rerum omnis tenetur non?</p>
+                </div>
+              </div>    
+            </div>
+            
+    </section>
+
+</body>
+<script src="/script.js"></script>
+</html>
