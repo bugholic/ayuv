@@ -37,16 +37,19 @@ main{
   min-height: 20vh;
   min-width: 20vw;
 }
-.menu > ul > li {
+.menu > ul > li , .projectCategory ul li {
   list-style:none;
 }
-.menu > ul > li button{
+.menu > ul > li button , .projectCategory ul li button{
   color: white;
     font-size: medium;
     font-weight: bolder;
-    padding: 10% 0;
+    padding: 2% 0;
     background-color: transparent;
     border: none;
+}
+.projectCategory ul li button{
+  color: #1b1b1b;
 }
 .menu > ul > li button:hover{
     font-style: italic;
@@ -54,6 +57,10 @@ main{
     cursor: pointer;
     width: min-content;
     word-wrap: break-word;
+}
+.projectCategory ul li button:hover{
+  cursor: pointer;
+  filter: invert(1);
 }
 .flexBox{
      display: flex;
