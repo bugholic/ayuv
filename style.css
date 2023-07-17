@@ -41,7 +41,7 @@ main{
   list-style:none;
 }
 .menu > ul > li button , .projectCategory ul li button{
-  color: white;
+  color: purple;
     font-size: medium;
     font-weight: bolder;
     padding: 2% 0;
@@ -49,7 +49,7 @@ main{
     border: none;
 }
 .projectCategory ul li button{
-  color: #1b1b1b;
+  color: #151d41;
 }
 .menu > ul > li button:hover{
     font-style: italic;
